@@ -1,10 +1,10 @@
 const router = require('express').Router();
 
-router.post('./register', (req, res) =>{
+router.post('/register', (req, res) =>{
 
-    res.send('Register');
+    res.send('There is info here');
 })
 
-router.post('./login');
+router.post('/login');
 
 module.exports = router;
